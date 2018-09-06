@@ -104,7 +104,7 @@ The dataset we are using has been obtained from an aggregating company Wood Mack
 * This, again, proves that while the **Edwards** and **Karnes** sub-plays have similar costs, your dollar goes further in the Edwards Condensate.
 
 ## Conclusion:
-We chose to target the **Karnes Trough** and **Edwards Condensate** sub-plays because of their higher oil to gas ratio and also their high production rates. We anticipate our overall well costs to average between $8.1 and $8.5 million, drilling costs between $4.0 and $4.2 million, and completion costs between $4.1 and $4.3 million. Our area is significantly less risky not only by the activity in the area, but also our Measured Lenght (ML) model variables suggests contribution to a successful payout.
+We chose to target the **Karnes Trough** and **Edwards Condensate** sub-plays because of their higher oil to gas ratio and also their high production rates. We anticipate our overall well costs to average between $8.1 and $8.5 million, drilling costs between $4.0 and $4.2 million, and completion costs between $4.1 and $4.3 million. Our area is significantly less risky not only by the activity in the area, but also our Measured Length (ML) model variables suggests contribution to a successful payout.
 ### Key Limitations/Uncertainities
 * Each sub-play is not in the same area, normalizing by area could be beneficial.  We're also painting our geographic regions with a large brush, within each sub-play are better and worse areas.
 * We are ultimately using state filed data. It can be 1 to 2 years behind, and in some cases lumps wells together.
