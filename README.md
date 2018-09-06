@@ -34,16 +34,13 @@ The dataset we are using has been obtained from an aggregating company Wood Mack
 
 ### Eagle Ford map by commodity type
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/EagleFordWells.png)
-
 * We were interested in oil rich areas, but state-filed production type was not indicative of asstes we were interested in.
 
 ### The extent of each sub-play in Eagle Ford
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/EagleFordSubPlays.png)
-
 * Breaking out wells by sub-play allowed us to evaluate the data at a more precise geographic resolution.
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/ProdByYear.png)
-
 **Takeaways from visualizations:**
 - Most of the wells in Eagle Ford produce oil.
 - **Black Oil** and **Karnes Trough** are the largest sub-plays in the Eagle Ford Play.
@@ -53,21 +50,17 @@ The dataset we are using has been obtained from an aggregating company Wood Mack
 
 ### Well & Operator count by Sub-play 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/ActivityBySubPlay.png)
-
 * Here we can see that **Black Oil**, **Karnes Trough** and **Edwards Condensate** have the most activity both in terms of number of operators and the number of wells.  Typically, areas with lower well counts and activity are more risky.
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/v2/EURbySubPlay_v2.png)
-
 * **Southeast Gas**, **Southwest Gas** and **Maverick Condensate** have the lowest well count and a higher average BOE production. This, in turn suggests the need for further analysis where the average EUR needs to be normalized by the well count.
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/v2/prod_by_subplay_v2.png)
-
 * Yet **Southeast Gas** and **Southwest Gas** appear to be rich in gas assets rather than oil assets. Since we are interested primarily in oil, the chart suggest we should further focus on **Karnes Trough**, **Edwards Condensate** and **Black Oil** which have the highest average oil production respectively. 
 
 * Since investors usually prefer quicker producing areas, and since Karnes Trough and Edwards Condensate have roughly similar average oil production, we also want to look into which of the sub-plays produce more during the first year of production. 
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/v2/AvgFirstYearProd_v2.png)
-
 * This chart suggest that **Edwards Condensate** and **Karnes Trough** produced more in the first year, while Black Oil had one of the lowest oil production levels during the first year.
 
 **Takeaway from activity analysis:**
@@ -78,28 +71,23 @@ The dataset we are using has been obtained from an aggregating company Wood Mack
 
 * Let's first look at different cost categories and how they contribute to the total well cost 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/v2/AvgWellCostBySubPlay_v2.png)
-
 * The **Karnes Trough** (purple) and **Edwards Condensate** (green) have roughly the same average production costs, sitting around $7.2m and $7.5m respectively.
 
 * So we break them out one step further into Drilling and Completions
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/AvgDrilling%26Completions.png)
-
 * Here are the different cost categories and how they contribute to average total well cost. 
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/pareto.png)
-
 * Let's break the costs down further for each sub-play average to see differences in all cost categories.
-![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/CostBreakdown.png)
 
+![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/CostBreakdown.png)
 * Looking at **Edwards Condensate** and **Karnes Trough** sub-plays, they appear to have relatively the same development costs. Karnes Trough has slightly higher "Other Cost" though. (*Dataframe sorted by ***Other Cost***). Southeast Gas has very low proppant and low water, indicating a smaller completion method.
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/v2/Drilling%20Cost%20Per%20Foot_v2.png)
-
 * In terms of drilling costs (other costs and rig costs combined) Maverick sub-play overall looks to be the most expensive area which could be due to the specifics of the geological formation it belongs to.  Other Eagle Ford could be wildcards and other areas not benefitting from development mode cost reductions. The Karnes and Edwards sub-plays are two of the cheapest places to drill.
 
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/master/v2/Completion%20Cost%20Per%20Foot_v2.png)
-
 * Completion costs (water, proppant and pumping costs) are indicative of completion methods. Historically, completions have increased over time. Our target sub-plays are a little above average, but not prohibitively high. Average lateral lengths range from 4,500' to 11,500 ft.
 * Overall, the Maverick Oil sub-play is the most expensive area on average. Steering clear of that area is advised.
 
@@ -107,12 +95,10 @@ The dataset we are using has been obtained from an aggregating company Wood Mack
 
 * We can use Measured Depth (MD) to estiamte drilling costs
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/austin/byMD.JPG)
-
 * The **Karnes Trough** and **Edwards Condensate's** mean is close to the median (50%), indicating a normal distribution.
 
 * We can use Lateral Length (LL) to estimate completions costs
 ![alt text](https://github.com/DaryaRudych/EagleFord-Oil-Project/blob/austin/byLL.JPG)
-
 * **Karnes Trough** and **Edwards Condensate** are slightly above average.
 
 * This, again, proves that while the **Edwards** and **Karnes** sub-plays have similar costs, your dollar goes further in the Edwards Condensate.
